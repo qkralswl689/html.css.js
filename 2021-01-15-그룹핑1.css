@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* coustom css */
+.header{
+
+}
+.contents-container{
+  width:1170px;
+  margin :0 auto;
+} /* 전체화면에서 가로길이를 고정시켜놓고 컨텐츠를 가운데로 배치하는것 */
+
+.logo-link{
+  font-size:14px;
+  float: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}/* 로고링크 폰트사이즈와 왼쪽으로 배치 및 위아래 공백지정*/
+.logo-image{
+  width:336px;
+  height:51px;
+} /* 로고이미지 사이즈 조절*/
+.contact-number{
+  font-size:14px;
+  text-align: right;
+  float: right;
+  padding-top: 25px;
+  padding-bottom: 25px;
+} /*컨텐트박스 오른쪽정렬 및 오른쪽 화면 배치 및 위아래 공백지정*/
+.phone-number{
+  font-size: 24px;
+} /*오른쪽 상단 전화번호 폰트 크기 지정*/
+.contact-text{
+  color:#888;
+  margin-top:4px;
+  line-height: 2;
+} /*오른쪽 상단 전화번호 아래 글씨 색 및 윗글자와의 공백 지정*/
+.clearbox{
+  clear:both;
+} /* 컨텐츠 왼쪽 정렬후 밑에 따라오는 컨텐츠 없도록 설정*/
+.gnb{
+  background:#434547;
+} /*메뉴 배경색 지정*/
+.gnb-link{
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+} /*메뉴 글자색,크기 지정 , 링크 밑줄 삭제*/
+.gnb-item{
+  border-right: 1px solid #777;
+  float: left;
+  padding: 20px 40px;
+  line-height: 2;
+} /* 메뉴 왼쪽으로 정렬 및 칸 공백지정 및 메뉴사이 선표시*/
+.gnb-item.item4{
+  border-right: 0px;
+} /* contacts 칸 오른쪽 선 삭제*/
+.gnb-item:hover{
+  background-color: #62bfe6;
+} /* 메뉴에 마우스 올려놓으면 배경색 변경*/
+.contents-01-main-image{
+  width: 100%;
+} /* 브라우저 영역에 이미지가 채워지도록 사이즈 조절 */
+.contents-02-article{
+  float: left;
+  line-height: 2;
+  color: #ffffff;
+  background: #62bfe6;
+  width:25%;
+  padding:30px;
+  box-sizing:border-box;
+} /*파란색 4개 박스 배경색,글자색,글간격,박스크지(화면크기의 25%차지하도록) 설정*/
+
+.contents-03-article{
+	float: left;
+	width: calc(50% - 40px);
+	padding: 50px 0;
+} /* 왼쪽정렬, 화면 50%에서 40px을 제외한 길이만큼 영역을 지정,안쪽여백 위아래 50px 오왼 0*/
+
+.contents-03-article .icon{
+	width: 100px;
+  height: 100px;
+  background: #62bfe6;
+	display:block;
+	float: left;
+} /* 100X100 사이즈 상자에 배경색,display 기본 inline에 block 으로 변경(위아래 높이적용하여 세로로 정렬)하여 설정 */
+
+.contents-03-article .text-container{
+	float: left;
+	width: calc(100% - 120px);
+	margin-left: 20px;:
+} /* 클씨 박스 설정 및 정렬 */
+.contents-03-article .title{
+	font-size: 20px;
+	line-height: 1.6;
+} /* 제목 글자 크기 설정*/
+.contents-03-article .paragraph{
+	font-size: 14px;
+    line-height: 2;
+    color: #777;
+    margin-top: 10px;
+} /* 본문 글자 크기 및 글자 간격 설정*/
+.contents-04-article{
+	width: 33.333%;
+	float: left;
+} /* 박스 크기 및 위치 정렬*/
+.contents-04-article .title {
+  font-size: 30px;
+  margin-bottom: 20px;
+} /* 제목 글자 크기 설정*/
+.contents-04-article .paragraph {
+  font-size: 14px;
+  color: #777;
+  line-height: 2;
+  margin-bottom: 20px;
+} /* 본문 글자 크기 및 글자 간격 설정*/
