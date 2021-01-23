@@ -3,3 +3,22 @@
   padding:0;
   font-size:16px;
 }
+.number1-box{
+
+}
+.number1-title{
+  margin:20px;
+}
+.number1-container{
+  display: flex;
+}
+.number1-add1{
+  margin-right: 10px;
+}
+.number1-add2{
+  margin-right: 10px;
+}
+
+.number1-result-box{
+  display: block;
+}
