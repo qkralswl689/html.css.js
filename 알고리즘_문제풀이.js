@@ -11,8 +11,6 @@ document.querySelector('.result1-4').value = a1 / b1;
 document.querySelector('.result1-5').value = a1 % b1;
 }); // 이벤트리스너 할당
 
-
-
 // console.log('더하기 : ' + (a1 + b1) );
 // console.log('빼기 : ' + (a1 - b1) );
 // console.log('곱하기 : ' + (a1 * b1) );
