@@ -3,6 +3,7 @@
   padding:0;
   font-size:16px;
 }
+
 .container{
   border-top:1px solid red;
   border-bottom:1px solid red;
@@ -46,6 +47,15 @@
 .label{
   display:inline-block;
   width:100px;
+  height:30px;
+  box-sizing:border-box;
+  text-align:center;
+  line-height:30px; /*버튼 높이랑 똑같이 해주면 가운데로 내려간다*/
+  margin-right:10px; /* input-text 박스랑 자리 맞추기위해서 적용했다*/
+}
+.labe2{
+  display:inline-block;
+/*   width:100px; */
   height:30px;
   box-sizing:border-box;
   text-align:center;
